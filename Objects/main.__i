@@ -1,0 +1,9 @@
+-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c
+-fno-rtti -funsigned-char -fshort-enums -fshort-wchar
+-D__EVAL -gdwarf-4 -O1 -fno-function-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier
+-I./RTE/_Target_1
+-I"C:/Users/PAN CF-LX6/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include"
+-I"C:/Users/PAN CF-LX6/AppData/Local/Arm/Packs/GigaDevice/GD32F1x0_DFP/3.2.1/Device/Firmware/Peripherals/inc"
+-I"C:/Users/PAN CF-LX6/AppData/Local/Arm/Packs/GigaDevice/GD32F1x0_DFP/3.2.1/Device/Include"
+-D__UVISION_VERSION="538" -D_RTE_ -DGD32F1x0 -DGD32F130_150 -DUSE_STDPERIPH_DRIVER -D_RTE_
+-o ./objects/main.o -MD "Src/main.c"

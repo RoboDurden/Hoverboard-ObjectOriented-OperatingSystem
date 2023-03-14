@@ -3,7 +3,7 @@
 If you have the Keil IDE installed and a Gen 2.x hoverboard,
 please help me to get this code running.
 
-I can not debug it :-/
+For some (to me) unkown reason I can not debug it with my st-ling v2 dongle and serial single wire communictaion :-/
 
 There is already a primitve class CIO for digital input/output in ib/CIO.cpp
 

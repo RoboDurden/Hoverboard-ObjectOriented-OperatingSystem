@@ -8,7 +8,7 @@ I can not debug it :-/
 There is already a primitve class CIO for digital input/output in ib/CIO.cpp
 
 https://github.com/RoboDurden/Hoverboard-ObjectOriented-OperatingSystem/blob/421a4c0b85978cf0a50b7e7a7e332c850e2bcbe5/Lib/CIO.cpp#L3
-
+```
  class CIO
  {
  private:
@@ -22,9 +22,11 @@ https://github.com/RoboDurden/Hoverboard-ObjectOriented-OperatingSystem/blob/421
   void Set(bool bOn = true);
   bool Get(void);
  };
+```
 
 But the new main() in Lib/main.cpp does not seem to be called :-(
 
+```
  int main(void)
  {
   //SystemClock_Config();
@@ -69,5 +71,5 @@ But the new main() in Lib/main.cpp does not seem to be called :-(
    fwdgt_counter_reload();		// Reload watchdog (watchdog fires after 1,6 seconds)
   }
  }
-
+```
 Please help :-) 
